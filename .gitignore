@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+*.user
+*.suo
+
+bin/
+obj/
+/packages/
+
+node_modules/
+dist/
+build/
+
+appsettings.Development.json

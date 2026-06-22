@@ -5,6 +5,6 @@ namespace Heliotracker.Services;
 
 public interface IPerformanceLogService
 {
-    Task<IEnumerable<PerformanceLog>> GetUnderPerformingPanelsAsync();
+    Task<IEnumerable<int>> GetUnderPerformingPanelIdsAsync();
     Task<PostResponseDto> PostLogAsync(LogDto dto);
 }

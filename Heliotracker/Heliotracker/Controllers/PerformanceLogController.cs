@@ -36,7 +36,7 @@ public class PerformanceLogController : ControllerBase
     {
         try
         {
-            var uPanels = await _performanceLog.GetUnderPerformingPanelsAsync();
+            var uPanels = await _performanceLog.GetUnderPerformingPanelIdsAsync();
             return Ok(uPanels);
         }
         catch (Exception ex)
